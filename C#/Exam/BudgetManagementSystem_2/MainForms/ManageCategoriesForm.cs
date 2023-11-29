@@ -12,10 +12,6 @@ namespace MainForms
 {
     public partial class ManageCategoriesForm : Form
     {
-        //private ListBox categoriesListBox;
-        //private TextBox newCategoryTextBox;
-       // private Button addCategoryButton;
-        //private Button deleteCategoryButton;
 
         public ManageCategoriesForm(List<Category> categories)
         {
@@ -27,19 +23,7 @@ namespace MainForms
             }
         }
 
-        // Метод для обработки добавления новой категории
-        private void AddCategory()
-        {
-            // Логика добавления новой категории
-            // ...
-        }
 
-        // Метод для обработки удаления выбранной категории
-        private void DeleteCategory()
-        {
-            // Логика удаления выбранной категории
-            // ...
-        }
 
         private void addCategoryButton_Click(object sender, EventArgs e)
         {

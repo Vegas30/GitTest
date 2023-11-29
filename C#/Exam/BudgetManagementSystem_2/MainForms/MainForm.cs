@@ -25,7 +25,6 @@ namespace MainForms
                 new Category("Еда"),
                 new Category("Транспорт"),
                 new Category("Зарплата"),
-                // Добавьте другие категории по необходимости.
             };
 
             // Заполнение выпадающего списка категорий.
@@ -69,11 +68,9 @@ namespace MainForms
             {
                 if (radioButton == incomeRadioButton)
                 {
-                    // Логика для выбора типа "Доход"
                 }
                 else if (radioButton == expenseRadioButton)
                 {
-                    // Логика для выбора типа "Расход"
                 }
             }
         }
